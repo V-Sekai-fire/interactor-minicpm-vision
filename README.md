@@ -10,8 +10,10 @@ A supervised process loads the model once on the GPU and answers single-image, m
 
 ```sh
 mix deps.get
-mix test
+mix compile
 ```
+
+The suite in `tests/` is outside Mix's default test path, so `mix test` does not run it.
 
 The model needs a GPU, and the service refuses to start without one.
 
