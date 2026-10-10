@@ -19,4 +19,4 @@ The model needs a GPU, and the service refuses to start without one.
 
 ## Licence
 
-There is no licence file, and the licence is not stated.
+MIT. See [LICENSE](LICENSE).
